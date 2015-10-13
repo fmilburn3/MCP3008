@@ -7,15 +7,15 @@ Pin Connections
 ---------------
 Pins 1 - 8 are connected to the analog inputs.  Pins 9 - 16 can be connected to the LaunchPad as shown below:
   
-MCP3008   LaunchPad
-16   -->   3V3
-15   -->   3V3
-14   -->   GND
-13   -->   7      (CLK)
-12   -->   14     (MISO)
-11   -->   15     (MOSI)
-10   -->   8      (CS)
-9    -->   GND
+MCP3008      LaunchPad
+* 16   -->   3V3
+* 15   -->   3V3
+* 14   -->   GND
+* 13   -->   7      (CLK)
+* 12   -->   14     (MISO)
+* 11   -->   15     (MOSI)
+* 10   -->   8      (CS)
+* 9    -->   GND
 
 Tested on the following boards using Energia 0101E0016
 
