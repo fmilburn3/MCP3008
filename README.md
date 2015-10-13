@@ -7,16 +7,15 @@ MCP3008 Analog to Digital Conversion library for Energia
   ---------------
   Pins 1 - 8 are connected to the analog inputs.  Pins 9 - 16 can be connected to the LaunchPad as shown below:
   
-    MCP3008            LaunchPad
-  *   ___ 
-  * 1 | u | 16   -->   3V3
-  * 2 |   | 15   -->   3V3
-  * 3 |   | 14   -->   GND
-  * 4 |   | 13   -->   7      (CLK)
-  * 5 |   | 12   -->   14     (MISO)
-  * 6 |   | 11   -->   15     (MOSI)
-  * 7 |   | 10   -->   8      (CS)
-  * 8 |___| 9    -->   GND
+  MCP3008            LaunchPad
+  16   -->   3V3
+  15   -->   3V3
+  14   -->   GND
+  13   -->   7      (CLK)
+  12   -->   14     (MISO)
+  11   -->   15     (MOSI)
+  10   -->   8      (CS)
+  9    -->   GND
 
   Tested with Energia 0101E0016
   * CC3200-LAUNCHXL Rev 4.1 (80 MHz) EMT
